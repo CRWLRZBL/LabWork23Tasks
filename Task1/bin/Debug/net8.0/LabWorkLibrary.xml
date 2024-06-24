@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LabWorkLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:LabWorkLibrary.Maths.GetSum(System.Double,System.Double)">
+            <summary>
+            Вычисляет сумму двух чисел
+            </summary>
+            <param name="x">Слагаемое</param>
+            <param name="y">Слагаемое</param>
+            <returns>Сумма</returns>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.GetDifference(System.Double,System.Double)">
+            <summary>
+            Вычисляет разность двух чисел
+            </summary>
+            <param name="x">Уменьшаемое</param>
+            <param name="y">Вычитаемое</param>
+            <returns>Разность</returns>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.GetMultiplication(System.Double,System.Double)">
+            <summary>
+            Вычисляет произведение двух чисел
+            </summary>
+            <param name="x">Множитель</param>
+            <param name="y">Множитель</param>
+            <returns>Произведение</returns>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.GetDivision(System.Double,System.Double)">
+            <summary>
+            Вычисляет частное двух чисел
+            </summary>
+            <param name="x">Делимое</param>
+            <param name="y">Делитель</param>
+            <returns>Частное</returns>
+            <exception cref="T:System.ArgumentException">Вывод ошибки, при некоректных значениях</exception>
+        </member>
+        <member name="M:LabWorkLibrary.Maths.GetRectangleArea(System.Double,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="width"></param>
+            <param name="height"></param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentException">Вывод ошибки, при некоректных значениях</exception>
+        </member>
+    </members>
+</doc>
